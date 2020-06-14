@@ -30,7 +30,7 @@ export interface Provider {
 }
 
 const Dashobard: React.FC = () => {
-  const { signOut, user } = useAuth();
+  const { user } = useAuth();
   const { navigate } = useNavigation();
 
   const [providers, setProviders] = useState<Provider[]>([]);
