@@ -29,7 +29,7 @@ export interface Provider {
   avatar_url: string;
 }
 
-const Dashobard: React.FC = () => {
+const Dashboard: React.FC = () => {
   const { user } = useAuth();
   const { navigate } = useNavigation();
 
@@ -105,4 +105,4 @@ const Dashobard: React.FC = () => {
   );
 };
 
-export default Dashobard;
+export default Dashboard;
